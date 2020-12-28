@@ -20,8 +20,7 @@
 
 title: 정수찬`s portfolio
 email: jsc2576@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-문제에 맞는 ML/DL 모델을 연구, 리서치하여 해결하는 개발자 + 데이터 사이언티스트 입니다. 
+description: 문제에 맞는 ML/DL 모델을 연구, 리서치하여 해결하는 개발자 + 데이터 사이언티스트 입니다.  # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
