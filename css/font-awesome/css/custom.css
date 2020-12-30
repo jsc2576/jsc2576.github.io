@@ -1,0 +1,13 @@
+.text-area{
+    font-style: normal; 
+    line-height: 1.5;
+    color: black;
+}
+
+.intro-sub-text{
+    font-size: 2.5rem;
+}
+
+.strong-bold{
+    font-size: large;
+}
