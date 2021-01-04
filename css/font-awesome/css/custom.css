@@ -11,3 +11,28 @@
 .strong-bold{
     font-size: large;
 }
+
+.post-thumbnail{
+    max-height: 260px;
+    max-width: 360px;
+    overflow: hidden;
+}
+
+.modal-content-custom{
+    font-size: large;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.modal-content-custom a{
+    color: cadetblue;
+}
+
+.div-center{
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.div-center ul{
+    font-size: large;
+}

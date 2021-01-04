@@ -1,0 +1,15 @@
+---
+title: 인공지능 오목
+subtitle: vs 사용자, vs 컴퓨터 플레이가 가능한 오목 게임<br><br>
+date: 2012-08-01
+modal-id: 1
+img: gomoku.png
+thumbnail: gomoku-thumbnail.png
+github: https://github.com/jsc2576/gomoku
+project-date: 2012.08 ~ 2012.12
+client: 학교 팀 프로젝트
+role: 알고리즘 설계 및 프로그래밍 (80%)
+tech: C 언어 (visual studio)
+description: 프로그래밍을 처음 접하면서 제작한 인공지능 오목 프로그램입니다. <br>AI 는 for 문과 if 문 만으로 이루어져 모든 경우에 대해 hard coding하였습니다. <br>기본 알고리즘은 하나의 좌표에서 오른쪽, 오른쪽 아래 대각선, 아래쪽 방향에 대해서 자신의 돌이 4개, 3+1개, 2+2개 등으로 이루어져 있는지 확인 후 가장 우선 순위가 높은 위치에 돌을 놓도록 설계하였습니다.
+
+---

@@ -15,19 +15,29 @@
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+
+                            <p class='modal-content-custom'><a href="{{ post.github }}" target="_blank">github link</a></p>
+                            <p class='modal-content-custom'>role: <strong>{{ post.role }}</strong></p>
+                            
+                            {% if post.function %}
+                            <p class='modal-content-custom'>주요 기능: <strong>{{ post.function }}</strong></p>
+                            {% endif %}
+
+                            {% if post.tech %}
+                            <p class='modal-content-custom'>적용 기술: <strong>{{ post.tech }}</strong></p>
+                            {% endif %}
+
+                            <br><br>
+                            
                             <p>{{ post.description }}</p>
+                            
+                            <br>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
-                                    </strong>
+                                    <strong>{{ post.client }}</strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
-                                    </strong>
+                                    <strong>{{ post.project-date }}</strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
