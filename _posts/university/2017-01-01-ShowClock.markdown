@@ -1,6 +1,7 @@
 ---
 title: ShowClock
 subtitle: 특정 시간을 기준으로 남은 시간을 알려주는 안드로이드 어플리케이션
+category: university
 date: 2017-01-01
 modal-id: 3
 img: showclock.png

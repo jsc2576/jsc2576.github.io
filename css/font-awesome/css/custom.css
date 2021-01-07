@@ -13,9 +13,10 @@
 }
 
 .post-thumbnail{
-    max-height: 260px;
-    max-width: 360px;
+    height: 260px;
+    width: 360px;
     overflow: hidden;
+    background-color: gray;
 }
 
 .modal-content-custom{

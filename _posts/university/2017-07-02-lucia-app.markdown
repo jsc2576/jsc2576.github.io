@@ -1,0 +1,16 @@
+---
+title: Lucia application
+subtitle: 사진 갤러리, 유튜브 영상, 일정을 관리하는 달력 기능을 가지는 앱과 서버
+category: university
+date: 2017-07-02
+modal-id: 6
+img: lucia-app.png
+thumbnail: lucia-app-thumbnail.png
+github: https://github.com/jsc2576/LuciaAppServer
+project-date: 2017.07 ~ 2017.08
+client: 개인 프로젝트
+role: 프로젝트 기능 정의, 설계 및 프로그래밍
+function: calender, youtube api, image galley
+tech: spring boot(mvc pattern), android 4.4~6.0(gridview, youtube api, recyclerview, viewpager), aws(EC2, S3, RDS), postgresql
+description: back-end로 spring boot, front-end로 android를 사용하였으며 DB는 aws RDS로 postgresql, 스토리지는 S3, 웹 서비스는 EC2로 구성하였습니다.<br>안드로이드 앱을 만들 때는 packing project로 만든 라이브러리를 사용하여 빠르게 제작하였습니다.<br>이 프로젝트를 진행하면서 전체적인 웹, 어플 서비스에 대한 구조를 익혔으며, aws에 대한 사용법도 터득하였습니다.
+---

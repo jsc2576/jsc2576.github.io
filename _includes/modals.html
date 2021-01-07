@@ -16,7 +16,10 @@
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
 
+                            {% if post.github %}
                             <p class='modal-content-custom'><a href="{{ post.github }}" target="_blank">github link</a></p>
+                            {% endif %}
+                            
                             <p class='modal-content-custom'>role: <strong>{{ post.role }}</strong></p>
                             
                             {% if post.function %}

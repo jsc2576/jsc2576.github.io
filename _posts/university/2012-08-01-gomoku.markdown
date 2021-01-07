@@ -1,6 +1,7 @@
 ---
 title: 인공지능 오목
 subtitle: vs 사용자, vs 컴퓨터 플레이가 가능한 오목 게임<br><br>
+category: university
 date: 2012-08-01
 modal-id: 1
 img: gomoku.png
